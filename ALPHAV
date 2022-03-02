@@ -1,0 +1,58 @@
+BlackCat Ransomware (AKA ALPHV) is a RUST based ransomware-as-a-service. According to the group itself, they are former members of BlackMatter and Darkside, so they are highly experienced and likely lethal. Given Rust is the programming language, it's harder to detect in an environment (which is likely why they chose that language). While they were first seen around November 2021, increases in their attacks have started to skyrocket January and February of 2022 and likely will only increase due to their sightings in Ukraine-based attacks.
+
+Unlike other ransomware, it is highly customizable and differs on the environment it has infected. And because it is Rust-based, it doesn't just impact Windows operating systems. It can be deployed to any infrastructure, and has been seen infecting both Windows and Linux.
+
+In the past, most ransomware attacks by other attackers are double extortion techniques. However, BlackCat uses a triple extortion tactic - on top of threatening to release their data, they also threat with a DDOS attack. 
+
+Palo Alto wrote an excellent analysis of the BlackCat ransomware and its ways of operations here: https://unit42.paloaltonetworks.com/blackcat-ransomware/
+
+BlackCat's arsenal of tools includes Mimikatz, Lazagne, WebBrowserPassView, GOST, PsExec, ConnectWise, net use, BCryptGenRandom, Rclone, CobaltStrike 
+For encryption they've been seen using AES and ChaCha20.
+
+
+IOCs:
+
+Hashes:
+0c6f444c6940a3688ffc6f8b9d5774c032e3551ebbccb64e4280ae7fc1fac479
+15b57c1b68cd6ce3c161042e0f3be9f32d78151fe95461eedc59a79fc222c7ed
+28d7e6fe31dc00f82cb032ba29aad6429837ba5efb83c2ce4d31d565896e1169
+2cf54942e8cf0ef6296deaa7975618dadff0c32535295d3f0d5f577552229ffc
+38834b796ed025563774167716a477e9217d45e47def20facb027325f2a790d1
+3a08e3bfec2db5dbece359ac9662e65361a8625a0122e68b56cd5ef3aedf8ce1
+3d7cf20ca6476e14e0a026f9bdd8ff1f26995cdc5854c3adb41a6135ef11ba83
+40f57275721bd74cc59c0c59c9f98c8e0d1742b7ae86a46e83e985cc4039c3a5
+4e18f9293a6a72d5d42dad179b532407f45663098f959ea552ae43dbb9725cbf
+5121f08cf8614a65d7a86c2f462c0694c132e2877a7f54ab7fcefd7ee5235a42
+59868f4b346bd401e067380cac69080709c86e06fae219bfb5bc17605a71ab3f
+5bdc0fb5cfbd42de726aacc40eddca034b5fa4afcc88ddfb40a3d9ae18672898
+658e07739ad0137bceb910a351ce3fe4913f6fcc3f63e6ff2eb726e45f29e582
+7154fdb1ef9044da59fcfdbdd1ed9abc1a594cacb41a0aeddb5cd9fdaeea5ea8
+731adcf2d7fb61a8335e23dbee2436249e5d5753977ec465754c6b699e9bf161
+7b2449bb8be1b37a9d580c2592a67a759a3116fe640041d0f36dc93ca3db4487
+7e363b5f1ba373782261713fa99e8bbc35ddda97e48799c4eb28f17989da8d8e
+b588823eb5c65f36d067d496881d9c704d3ba57100c273656a56a43215f35442
+bd337d4e83ab1c2cacb43e4569f977d188f1bb7c7a077026304bf186d49d4117
+c5ad3534e1c939661b71f56144d19ff36e9ea365fdb47e4f8e2d267c39376486
+c8b3b67ea4d7625f8b37ba59eed5c9406b3ef04b7a19b97e5dd5dab1bd59f283
+cefea76dfdbb48cfe1a3db2c8df34e898e29bec9b2c13e79ef40655c637833ae
+e69a13add1245bc1b7b6337e64eee9b53395b9574f2b85d32f891680c7165ff5
+f0743669e8cf2a26132de1c4bd55978b005291075fcb531e751de8c2b6407faa
+f5685e99c3ee2b11ed5dd6ca738d6a5c35a81943c6c4cf1f2e2b212e7f8ffded
+f7a038f9b91c40e9d67f4168997d7d8c12c2d27cd9e36c413dd021796a24e083
+f815f5d6c85bcbc1ec071dd39532a20f5ce910989552d980d1d4346f57b75f89
+f837f1cd60e9941aa60f7be50a8f2aaaac380f560db8ee001408f35c1b7a97cb
+f8c08d00ff6e8c6adb1a93cd133b19302d0b651afd73ccb54e3b6ac6c60d99c6
+cda37b13d1fdee1b4262b5a6146a35d8fc88fa572e55437a47a950037cc65d40
+
+Commands:
+
+cmd /c vssadmin.exe delete shadows /all /quiet
+cmd /c fsutil behavior set SymlinkEvaluation R2L:1
+cmd /c fsutil behavior set SymlinkEvaluation R2R:1
+CSIDL_WINDOWS\temp\psexec.exe -accepteula \\[REDACTED] -u [REDACTED] -p [REDACTED] -s -d -f -c [REDACTED].exe --access-token [REDACTED] --no-prop-servers \\[REDACTED] --propagated
+[REDACTED].exe --access-token [REDACTED] --no-net
+cmd /c reg add HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters /v MaxMpxCt /d 65535 /t REG_DWORD /f
+cmd /c wmic csproduct get UUID
+
+Extension:
+.sykffle
