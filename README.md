@@ -23,6 +23,11 @@ Analysts and consultants in security will see a rise in attacks related to the c
 | FoxBlade | Malware | https://www.zdnet.com/article/microsoft-finds-foxblade-malware-on-ukrainian-systems-removing-rt-from-windows-app-store/ |
 | IsaacWiper & HermeticWizard | Wiper and Worm | https://www.welivesecurity.com/2022/03/01/isaacwiper-hermeticwizard-wiper-worm-targeting-ukraine/ |
 | SunSeed | Malware | https://www.proofpoint.com/us/blog/threat-insight/asylum-ambuscade-state-actor-uses-compromised-private-ukrainian-military-emails?utm_source=social_organic&utm_social_network=twitter&utm_campaign=ThreatInsight&utm_post_id=723c05c8-c092-42ac-b748-8fffd1431b08 |
+| Pteredo | Backdoor | https://www.trendmicro.com/vinfo/us/threat-encyclopedia/malware/backdoor.win32.pterodo.a |
 
+## OSINT Repos
+
+Curated Intel is working with analysts to track and keep OSINT on the threats related to the Ukraine conflict. AMAZING information can be found in there repo:
+https://github.com/curated-intel/Ukraine-Cyber-Operations
 
 
