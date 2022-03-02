@@ -9,6 +9,11 @@ Palo Alto wrote an excellent analysis of the BlackCat ransomware and its ways of
 BlackCat's arsenal of tools includes Mimikatz, Lazagne, WebBrowserPassView, GOST, PsExec, ConnectWise, net use, BCryptGenRandom, Rclone, CobaltStrike 
 For encryption they've been seen using AES and ChaCha20.
 
+ALPHAV'S Operating sites:
+http://alphvmmm27o3abo3r2mlmjrpdmzle3rykajqc5xsj7j7ejksbpsa36ad.onion
+http://2cuqgeerjdba2rhdiviezodpu3lc4qz2sjf4qin6f7std2evleqlzjid.onion
+
+Indicators of Compromise:
 
 | Type | Data |
 | --- | --- |
