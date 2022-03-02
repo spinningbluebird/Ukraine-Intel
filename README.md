@@ -61,3 +61,7 @@ https://exchange.xforce.ibmcloud.com/threats/guid:f5c68bfeb7578ab174b63e4ccdfe72
 https://exchange.xforce.ibmcloud.com/threats/guid:fd3be8474b07bae9fa0a9cf4a74dd4cc 
 https://exchange.xforce.ibmcloud.com/threats/guid:a763c1c0b28ddbc1090fac19fdb48863 
 https://exchange.xforce.ibmcloud.com/threats/guid:cdd7d03de44042d008e66d807197c1a1 
+
+Actinium IOCs:
+
+https://community.riskiq.com/article/b62bac8b/indicators
