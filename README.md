@@ -41,3 +41,20 @@ https://github.com/curated-intel/Ukraine-Cyber-Operations
 Equinix Threat Analysis Center has uploaded IOCs seen in attacks to Curated Intel's repo:
 https://github.com/curated-intel/Ukraine-Cyber-Operations/blob/main/ETAC_Vetted_UkraineRussiaWar_IOCs.csv
 
+IBM X-Force Collections of Intelligence:
+https://exchange.xforce.ibmcloud.com/malware-analysis/guid:592fda25771f2a9c0dc94d4043257ec2 
+https://exchange.xforce.ibmcloud.com/threat-group/guid:28d5c141467b2a2f92d18aca0ad76024 
+https://exchange.xforce.ibmcloud.com/threat-group/guid:1383523fa178da67e63f82264c2ad37f 
+https://exchange.xforce.ibmcloud.com/threat-group/guid:85be023f589688341de37d71be99d798 
+https://exchange.xforce.ibmcloud.com/threat-group/guid:3cc42121df36b9703df51cc789321862 
+https://exchange.xforce.ibmcloud.com/threat-group/guid:8c0ed7139978add8d1c83105f4fa27a8 
+https://exchange.xforce.ibmcloud.com/threat-group/guid:22a30b968ce67213af1723a0652fe6b7 
+https://exchange.xforce.ibmcloud.com/threat-group/guid:93f4db107b3c311b703ab0096928c5bc 
+https://exchange.xforce.ibmcloud.com/threats/guid:098be7a539cfebbacac9696434417d97 
+https://exchange.xforce.ibmcloud.com/threats/guid:7916c17dae2b8f3da718399638e5734a 
+https://exchange.xforce.ibmcloud.com/threats/guid:2771d8a337ce162ce2ad018ff178ecd4 
+https://exchange.xforce.ibmcloud.com/threats/guid:d4dbb8b84cc42d34147ca77a14721192 
+https://exchange.xforce.ibmcloud.com/threats/guid:f5c68bfeb7578ab174b63e4ccdfe72a5 
+https://exchange.xforce.ibmcloud.com/threats/guid:fd3be8474b07bae9fa0a9cf4a74dd4cc 
+https://exchange.xforce.ibmcloud.com/threats/guid:a763c1c0b28ddbc1090fac19fdb48863 
+https://exchange.xforce.ibmcloud.com/threats/guid:cdd7d03de44042d008e66d807197c1a1 
