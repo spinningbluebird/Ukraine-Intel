@@ -58,7 +58,6 @@ For encryption they've been seen using AES and ChaCha20.
 | sha256 | 7e363b5f1ba373782261713fa99e8bbc35ddda97e48799c4eb28f17989da8d8e | 01_samples_for_upload\222.vir embedded in ZIP file   31894fc735ac0ac2bc935bcc0472d72e98c955f7a4c5a2b72880de7934ba02ba |
 | sha256 | 3bb9131f8a7991ccd7351903a8ee403ed422762ce1f44f062c24d8279c388879 | tar file embedding   9802a1e8fb425ac3a7c0a7fca5a17cfcb7f3f5f0962deb29e3982f0bece95e26 ELF (Linux)   ransomware payload and VM check reports |
 | sha256 | e69a13add1245bc1b7b6337e64eee9b53395b9574f2b85d32f891680c7165ff5 | b9acf6efedadae53cf015d0aa9f32653.virus windows   ransomware payload |
-| ;high |  |  |
 | sha256 | 1af1ca666e48afc933e2eda0ae1d6e88ebd23d27c54fd1d882161fd8c70b678e | rdp01_alpha_x86_32_windows_encrypt_app.exe windows   ransomware payload |
 | sha256 | c3e5d4e62ae4eca2bfca22f8f3c8cbec12757f78107e91e85404611548e06e40 | [victim name removed by intrinsec]2.exe.virus windows   ransomware payload  |
 | sha256 | 13828b390d5f58b002e808c2c4f02fdd920e236cc8015480fa33b6c1a9300e31 | [victim name removed by intrinsec].exe.virus windows   ransomware payload  |
@@ -109,7 +108,6 @@ For encryption they've been seen using AES and ChaCha20.
 | sha1 | 2a53525eeb7b76b3d1bfe40ac349446f2add8784 | 01_samples_for_upload\222.vir embedded in ZIP file   31894fc735ac0ac2bc935bcc0472d72e98c955f7a4c5a2b72880de7934ba02ba |
 | sha1 | 7bbb3b91b2b1f3c995ab2a8de2acfebe54cb0f39 | tar file embedding   9802a1e8fb425ac3a7c0a7fca5a17cfcb7f3f5f0962deb29e3982f0bece95e26 ELF (Linux)   ransomware payload and VM check reports |
 | sha1 | 58abfd1a56c208826925a1c903554c091285ad49 | b9acf6efedadae53cf015d0aa9f32653.virus windows   ransomware payload |
-| ;high |  |  |
 | sha1 | ce5540c0d2c54489737f3fefdbf72c889ac533a9 | rdp01_alpha_x86_32_windows_encrypt_app.exe windows   ransomware payload |
 | sha1 | c1187fe0eaddee995773d6c66bcb558536e9b62c | [victim name removed by intrinsec]2.exe.virus windows   ransomware payload  |
 | sha1 | 783b2b053ef0345710cd2487e5184f29116e367c | [victim name removed by intrinsec].exe.virus windows   ransomware payload  |
@@ -149,7 +147,6 @@ For encryption they've been seen using AES and ChaCha20.
 | md5 | 92ed8739cfb9132c8b57016e3c071a28 | test_4mmc_x86_64_linux_encrypt_app.elf Linux (ELF)   ransomware payload in which leaked data could be available from a negociation   website  |
 | md5 | 1151e20ea5d45063278ccc36a559d851 | 7z file compressing   f8c08d00ff6e8c6adb1a93cd133b19302d0b651afd73ccb54e3b6ac6c60d99c6 Linux (ELF)   ransomware payload |
 | md5 | 056699b8c632dbb780495fcf78860ab7 | BlackCat_Linux_Ransom.7z |
-| file compressing   f8c08d00ff6e8c6adb1a93cd133b19302d0b651afd73ccb54e3b6ac6c60d99c6 Linux (ELF)   ransomware payload" | high |  |
 | md5 | 843001980e5073c7f0ea8b56873246b8 | Linux (ELF) ransomware payload in which leaked data   could be available from a negociation website  |
 | md5 | 553769d52a54897134a95e95c06ea4ef | windows ransomware payload signatures of Blackcat that   seem to be a false positive and related to kse-launcher i.e. KeyStore   Explorer |
 | md5 | 71b0db75ae00efd006068d7fff5992cb | 71b0db75ae00efd006068d7fff5992cb.virus windows   ransomware payload  |
@@ -160,7 +157,6 @@ For encryption they've been seen using AES and ChaCha20.
 | md5 | 8e1f22dd9e809ead5e19b340b0c80cae | 01_samples_for_upload\222.vir embedded in ZIP file   31894fc735ac0ac2bc935bcc0472d72e98c955f7a4c5a2b72880de7934ba02ba |
 | md5 | a7841ed8c3a6bb880ac6bd057eb4d55a | tar file embedding   9802a1e8fb425ac3a7c0a7fca5a17cfcb7f3f5f0962deb29e3982f0bece95e26 ELF (Linux)   ransomware payload and VM check reports |
 | md5 | b9acf6efedadae53cf015d0aa9f32653 | b9acf6efedadae53cf015d0aa9f32653.virus windows   ransomware payload |
-| ;high |  |  |
 | md5 | 51826408514057db47c0bbbffb2c581d | rdp01_alpha_x86_32_windows_encrypt_app.exe windows   ransomware payload |
 | md5 | ccde3fe374a219ed3a85a0bf548542c3 | [victim name removed by intrinsec]2.exe.virus windows   ransomware payload  |
 | md5 | c6901bc6720e1e30c6c2e89aae874a90 | [victim name removed by intrinsec].exe.virus windows   ransomware payload  |
@@ -196,8 +192,6 @@ For encryption they've been seen using AES and ChaCha20.
 | url | hxxp://141.136.44.54/files/ | URL pointing the a 'files' folder in which payloads   are hosted |
 | url | hxxp://141.136.44.54/ | url address found in the runner setup.exe by reverse   engineering the binary |
 | ip | 141[.]136[.]44[.]54 | IP address found in the runner setup.exe by reverse   engineering the binary |
-| File Name | screensaver.exe |  
-| File Name | file.bin |  
 | Command Used | [REDACTED].exe   --access-token [REDACTED] --no-net |  
 | Command Used | reg add   HKLM\SYSTEM\CurrentControlSet\Control\Lsa /v DisableRestrictedAdmin /t   REG_DWORD /d 0 |  
 | Command Used | cmd /c vssadmin.exe delete shadows /all   /quiet |  
