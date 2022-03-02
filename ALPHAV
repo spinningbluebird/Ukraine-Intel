@@ -10,239 +10,243 @@ BlackCat's arsenal of tools includes Mimikatz, Lazagne, WebBrowserPassView, GOST
 For encryption they've been seen using AES and ChaCha20.
 
 
-| Type | Data | Description |
-|---|---|---|
-| sha256 | 731adcf2d7fb61a8335e23dbee2436249e5d5753977ec465754c6b699e9bf161 | windows ransomware   payload in which data were encrypted |
-| sha256 | d3f6d77366e48b6c483656c6d7774d6632bcd18ef375736a7131588f15e1747f | Zip archive |
-| sha256 | 8453fbb620e4fe685304e366ff1371a54384a3ae8836bb5b41bf05fc387c5451 | Zip archive |
-| sha256 | 4e18f9293a6a72d5d42dad179b532407f45663098f959ea552ae43dbb9725cbf | windows ransomware payload in which leaked data could   be available from a negociation website  |
-| sha256 | 15b57c1b68cd6ce3c161042e0f3be9f32d78151fe95461eedc59a79fc222c7ed | test_4mmc_x86_32_windows_encrypt_app.exe windows   ransomware payload in which leaked data could be available from a negociation   website  |
-| sha256 | bd337d4e83ab1c2cacb43e4569f977d188f1bb7c7a077026304bf186d49d4117 | locker.exe windows ransomware payload in which leaked   data could be available from a negociation website  |
-| sha256 | 28d7e6fe31dc00f82cb032ba29aad6429837ba5efb83c2ce4d31d565896e1169 | windows ransomware payload in which leaked data could   be available from a negociation website  |
-| sha256 | c8b3b67ea4d7625f8b37ba59eed5c9406b3ef04b7a19b97e5dd5dab1bd59f283 | 4405_[victim name removed by   intrinsec]_alpha_x86_32_windows_encrypt_app.exe windows ransomware payload in   which leaked data could be available from a negociation website  |
-| sha256 | c5ad3534e1c939661b71f56144d19ff36e9ea365fdb47e4f8e2d267c39376486 | [victim name removed by   intrinsec]_com_tr_alpha_x86_32_windows_encrypt_app.exe windows ransomware   payload in which leaked data could be available from a negociation   website  |
-| sha256 | 59868f4b346bd401e067380cac69080709c86e06fae219bfb5bc17605a71ab3f | windows ransomware payload that seem to be a test file |
-| sha256 | 38834b796ed025563774167716a477e9217d45e47def20facb027325f2a790d1 | windows ransomware payload in which leaked data could   be available from a negociation website  |
-| sha256 | 7b2449bb8be1b37a9d580c2592a67a759a3116fe640041d0f36dc93ca3db4487 | windows ransomware payload in which leaked data could   be available from a negociation website (could be from the same attack than   previous hash) |
-| sha256 | f837f1cd60e9941aa60f7be50a8f2aaaac380f560db8ee001408f35c1b7a97cb | veros3.exe windows ransomware payload |
-| sha256 | cda37b13d1fdee1b4262b5a6146a35d8fc88fa572e55437a47a950037cc65d40 | windows ransomware payload signatures of Blackcat that   seem to be a false positive and related to kse-launcher i.e. KeyStore   Explorer |
-| sha256 | b588823eb5c65f36d067d496881d9c704d3ba57100c273656a56a43215f35442 | d7a7fd3a7e3501114fd0049457f5ce09.virus |
-| sha256 | 7154fdb1ef9044da59fcfdbdd1ed9abc1a594cacb41a0aeddb5cd9fdaeea5ea8 | 4373cf0d42926b15f95e35683d883a1c.virus windows   ransomware payload  |
-| sha256 | cefea76dfdbb48cfe1a3db2c8df34e898e29bec9b2c13e79ef40655c637833ae | cefea76dfdbb48cfe1a3db2c8df34e898e29bec9b2c13e79ef40655c637833ae.exe   windows ransomware payload  |
-| sha256 | 2cf54942e8cf0ef6296deaa7975618dadff0c32535295d3f0d5f577552229ffc | ed075c4718fd98efcbc845db00677065.virus windows   ransomware payload  |
-| sha256 | 658e07739ad0137bceb910a351ce3fe4913f6fcc3f63e6ff2eb726e45f29e582 | fb1e6156f0e3223694add66339864cd4.virus windows   ransomware payload  |
-| sha256 | 0c6f444c6940a3688ffc6f8b9d5774c032e3551ebbccb64e4280ae7fc1fac479 | bb266486ee8ac70c0687989e02cefa14.virus windows   ransomware payload  |
-| sha256 | 5bdc0fb5cfbd42de726aacc40eddca034b5fa4afcc88ddfb40a3d9ae18672898 | 730bd2385c3fc6d2bee48c0a9bcb373c.virus windows   ransomware payload  |
-| sha256 | 3d7cf20ca6476e14e0a026f9bdd8ff1f26995cdc5854c3adb41a6135ef11ba83 | 01_samples_for_upload\220.vir windows ransomware   payload  |
-| sha256 | 77627a11eb3ee6f7195953a8a793fea69c97166f3afb668fe3d37ebe26643c7a | windows ransomware payload signatures of Blackcat that   seem to be a false positive and related to kse-launcher i.e. KeyStore   Explorer |
-| sha256 | 8415c72e225a8285cba9228150c7c318a47f9f09489f435486597c42ce74a253 | [victim name removed by intrinsec] (2).zip embeeds two   windows ransomware payloads  |
-| sha256 | 40f0550787e8029756620e2209187b7493b369a7363b9179fb96de2f3cb26803 | zip file compressing   cefea76dfdbb48cfe1a3db2c8df34e898e29bec9b2c13e79ef40655c637833ae.exe windows   ransomware payload |
-| sha256 | 31894fc735ac0ac2bc935bcc0472d72e98c955f7a4c5a2b72880de7934ba02ba | zip file compressing   7e363b5f1ba373782261713fa99e8bbc35ddda97e48799c4eb28f17989da8d8e.exe windows   ransomware payload |
-| sha256 | 1bbe4972d8e940fcc83408b87604aaa6728d89fe6e019891ba82fb900c7db009 | zip file compressing   59868f4b346bd401e067380cac69080709c86e06fae219bfb5bc17605a71ab3f.exe windows   ransomware payload |
-| sha256 | 65c25cf7f0b2a38d01b1666a9680278d8de12fe40f2e5a53fdd3ad5218847bfb | zip file compressing   3d7cf20ca6476e14e0a026f9bdd8ff1f26995cdc5854c3adb41a6135ef11ba83.exe windows   ransomware payload |
-| sha256 | 43d3e630a7448efd83b8c191b255d9ace89b40c0103df47db5e01a37d8450607 | zip file compressing [victim name removed by   intrinsec]-exe-3d7cf20ca6476e14e0a026f9bdd8ff1f26995cdc5854c3adb41a6135ef11ba83.bin.sample   windows ransomware payload |
-| sha256 | 5045b8478a51ddfeba5f3ea751aa0a1b9a6d8b5ae6c5d6c61b08b11be7302ca1 | BlackCat.zip file compressing [victim name removed by   intrinsec]-exe-3d7cf20ca6476e14e0a026f9bdd8ff1f26995cdc5854c3adb41a6135ef11ba83.bin.sample   windows ransomware payload |
-| sha256 | f8c08d00ff6e8c6adb1a93cd133b19302d0b651afd73ccb54e3b6ac6c60d99c6 | Linux (ELF) ransomware payload in which leaked data   could be available from a negociation website  |
-| sha256 | f7a038f9b91c40e9d67f4168997d7d8c12c2d27cd9e36c413dd021796a24e083 | Linux (ELF) ransomware payload in which leaked data   could be available from a negociation website  |
-| sha256 | 3a08e3bfec2db5dbece359ac9662e65361a8625a0122e68b56cd5ef3aedf8ce1 | test_4mmc_x86_64_linux_encrypt_app.elf Linux (ELF)   ransomware payload in which leaked data could be available from a negociation   website  |
-| sha256 | bb4dc2defcac70f068bdb4a68f465695ecc776906d93544ca11a049eac322638 | 7z file compressing   f8c08d00ff6e8c6adb1a93cd133b19302d0b651afd73ccb54e3b6ac6c60d99c6 Linux (ELF)   ransomware payload |
-| sha256 | 07cb251c6c4262876083e5ad6a02b1c022464a10bab23c9582661dacc3d6730a | BlackCat_Linux_Ransom.7z |
-| file compressing   f8c08d00ff6e8c6adb1a93cd133b19302d0b651afd73ccb54e3b6ac6c60d99c6 Linux (ELF)   ransomware payload" | high |  |
-| sha256 | 5121f08cf8614a65d7a86c2f462c0694c132e2877a7f54ab7fcefd7ee5235a42 | Linux (ELF) ransomware payload in which leaked data   could be available from a negociation website  |
-| sha256 | 152d0f3fc21fd22affa6012a4b7005e01c5748302a89df7b267cf0f96f61f2f0 | windows ransomware payload signatures of Blackcat that   seem to be a false positive and related to kse-launcher i.e. KeyStore   Explorer |
-| sha256 | 40f57275721bd74cc59c0c59c9f98c8e0d1742b7ae86a46e83e985cc4039c3a5 | 71b0db75ae00efd006068d7fff5992cb.virus windows   ransomware payload  |
-| sha256 | 9802a1e8fb425ac3a7c0a7fca5a17cfcb7f3f5f0962deb29e3982f0bece95e26 | [victim name removed by intrinsec]_wo_dc Linux (ELF)   ransomware payload in which leaked data could be available from a negociation   website  |
-| sha256 | f0a694b6ed97dcf4932ea91b955bd93457d1979ea88a670895094f8771f7e199 | setup.exe Runner of ALPHV ransomware payloads |
-| sha256 | 198a7994c2aa71d74009f5d08bd7ad2742cac3b11d7b2154894c9c001ce2e5ca | setup.exe Runner of ALPHV ransomware payloads in a ZIP   file |
-| sha256 | e7060538ee4b48b0b975c8928c617f218703dab7aa7814ce97481596f2a78556 | [victim name removed by intrinsec]_wo_dc Linux (ELF)   ransomware payload in which leaked data could be available from a negociation   website  |
-| sha256 | 7e363b5f1ba373782261713fa99e8bbc35ddda97e48799c4eb28f17989da8d8e | 01_samples_for_upload\222.vir embedded in ZIP file   31894fc735ac0ac2bc935bcc0472d72e98c955f7a4c5a2b72880de7934ba02ba |
-| sha256 | 3bb9131f8a7991ccd7351903a8ee403ed422762ce1f44f062c24d8279c388879 | tar file embedding   9802a1e8fb425ac3a7c0a7fca5a17cfcb7f3f5f0962deb29e3982f0bece95e26 ELF (Linux)   ransomware payload and VM check reports |
-| sha256 | e69a13add1245bc1b7b6337e64eee9b53395b9574f2b85d32f891680c7165ff5 | b9acf6efedadae53cf015d0aa9f32653.virus windows   ransomware payload |
-| sha256 | 1af1ca666e48afc933e2eda0ae1d6e88ebd23d27c54fd1d882161fd8c70b678e | rdp01_alpha_x86_32_windows_encrypt_app.exe windows   ransomware payload |
-| sha256 | c3e5d4e62ae4eca2bfca22f8f3c8cbec12757f78107e91e85404611548e06e40 | [victim name removed by intrinsec]2.exe.virus windows   ransomware payload  |
-| sha256 | 13828b390d5f58b002e808c2c4f02fdd920e236cc8015480fa33b6c1a9300e31 | [victim name removed by intrinsec].exe.virus windows   ransomware payload  |
-| sha256 | c5ad3534e1c939661b71f56144d19ff36e9ea365fdb47e4f8e2d267c39376486 | [victim name removed by   intrinsec]_com_tr_alpha_x86_32_windows_encrypt_app.exe windows ransomware   payload |
-| sha1 | a186c08d3d10885ebb129b1a0d8ea0da056fc362 | windows ransomware payload in which data were   encrypted  |
-| sha1 | ffdd7dd92f6cac1d29d57fa4c0af6e4fbe8dbcd0 | Zip archive |
-| sha1 | 130b337a99fbf110fa39214c0b01337f7bf77cb9 | Zip archive |
-| sha1 | 655c2567650d2c109fab443de4b737294994f1fd | windows ransomware payload in which leaked data are   available from this negociation website |
-| sha1 | 89060eff6db13e7455fee151205e972260e9522a | test_4mmc_x86_32_windows_encrypt_app.exe windows   ransomware payload in which leaked data could be available from a negociation   website  |
-| sha1 | 94f025f3be089252692d58e54e3e926e09634e40 | locker.exe windows ransomware payload in which leaked   data could be available from a negociation website  |
-| sha1 | 5c6ca5581a04955d8e4d1fa452621fbc922ecb7b | windows ransomware payload in which leaked data could   be available from a negociation website  |
-| sha1 | 5869820f261f76eafa1ba00af582a9225d005c89 | 4405_[victim name removed by   intrinsec]_alpha_x86_32_windows_encrypt_app.exe windows ransomware payload in   which leaked data could be available from a negociation website  |
-| sha1 | c5181892afde538c73109b4c83e2a2730eb9014d | [victim name removed by   intrinsec]_com_tr_alpha_x86_32_windows_encrypt_app.exe windows ransomware   payload in which leaked data could be available from a negociation   website  |
-| sha1 | e22436386688b5abe6780a462fd07cd12c3f3321 | windows ransomware payload that seem to be a test file |
-| sha1 | da1e4a09a59565c5d62887e0e9a9f6f04a18b5f4 | windows ransomware payload in which leaked data could   be available from a negociation website  |
-| sha1 | 57a6dfd2b021e5a4d4fe34a61bf3242ecee841b3 | windows ransomware payload in which leaked data could   be available from a negociation website (could be from the same attack than   previous hash) |
-| sha1 | 8917af3878fa49fe4ec930230b881ff0ae8d19c9 | veros3.exe windows ransomware payload |
-| sha1 | f95d865ef06f382bc9599a8093308afb9007ab89 | windows ransomware payload signatures of Blackcat that   seem to be a false positive and related to kse-launcher i.e. KeyStore   Explorer |
-| sha1 | 3e794a584d75c2ceb07287fe450dcdc4d7ce949a | d7a7fd3a7e3501114fd0049457f5ce09.virus |
-| sha1 | 0c7215c4325ded8139ea2f0428412f17e6c8f957 | 4373cf0d42926b15f95e35683d883a1c.virus windows   ransomware payload  |
-| sha1 | e17dc8062742878b0b5ced2145311929f6f77abd | cefea76dfdbb48cfe1a3db2c8df34e898e29bec9b2c13e79ef40655c637833ae.exe   windows ransomware payload  |
-| sha1 | f466b4d686d1fa9fed064507639b9306b0d80bbf | ed075c4718fd98efcbc845db00677065.virus windows   ransomware payload  |
-| sha1 | a8fd52bd107f7b62483c11c15923fbd2256c8bac | fb1e6156f0e3223694add66339864cd4.virus windows   ransomware payload |
-| sha1 | 11203786b17bb3873d46acae32a898c8dac09850 | bb266486ee8ac70c0687989e02cefa14.virus windows   ransomware payload  |
-| sha1 | d42566e04d295a1e9e2823d202a1800cdc1ddd77 | 730bd2385c3fc6d2bee48c0a9bcb373c.virus windows   ransomware payload  |
-| sha1 | 087497940a41d96e4e907b6dc92f75f4a38d861a | 01_samples_for_upload\220.vir windows ransomware   payload |
-| sha1 | cbeab15657761631e124d4bc315df5dd744a2d54 | windows ransomware payload signatures of Blackcat that   seem to be a false positive and related to kse-launcher i.e. KeyStore   Explorer |
-| sha1 | 9dac45163102b5355131c852f6bcaae787373153 | [victim name removed by intrinsec] (2).zip embeeds two   windows ransomware payloads  |
-| sha1 | 91ba6d88b5c24992c5c52707afed78473f99b23b | zip file compressing   cefea76dfdbb48cfe1a3db2c8df34e898e29bec9b2c13e79ef40655c637833ae.exe windows   ransomware payload |
-| sha1 | c59e30486ecad58207ebccd48615faef5381f8d4 | zip file compressing   7e363b5f1ba373782261713fa99e8bbc35ddda97e48799c4eb28f17989da8d8e.exe windows   ransomware payload |
-| sha1 | 30319c50e1e54b857c7c2a9cec50707adb658a1e | zip file compressing   59868f4b346bd401e067380cac69080709c86e06fae219bfb5bc17605a71ab3f.exe windows   ransomware payload |
-| sha1 | 111440943ace8197a6a59420ed27f608e6e9d94a | zip file compressing   3d7cf20ca6476e14e0a026f9bdd8ff1f26995cdc5854c3adb41a6135ef11ba83.exe windows   ransomware payload |
-| sha1 | bb5ed8ea820d829d30c810a77d795f24d7a265c5 | zip file compressing [victim name removed by   intrinsec]-exe-3d7cf20ca6476e14e0a026f9bdd8ff1f26995cdc5854c3adb41a6135ef11ba83.bin.sample   windows ransomware payload |
-| sha1 | f493fe7e3c7bbf2e3c2ce26345b6eb6e835caa51 | BlackCat.zip file compressing [victim name removed by   intrinsec]-exe-3d7cf20ca6476e14e0a026f9bdd8ff1f26995cdc5854c3adb41a6135ef11ba83.bin.sample   windows ransomware payload |
-| sha1 | 9146a448463935b47e29155da74c68d16e0d7031 | Linux (ELF) ransomware payload in which leaked data   could be available from a negociation website  |
-| sha1 | 6116a5b0c0b6c147a2c715aad2eb1cd082941715 | Linux (ELF) ransomware payload in which leaked data   could be available from a negociation website  |
-| sha1 | 362aa21546904629b28a56c9d5c4bfd3b53296f5 | test_4mmc_x86_64_linux_encrypt_app.elf Linux (ELF)   ransomware payload in which leaked data could be available from a negociation   website  |
-| sha1 | 00fd13409a3da0da9248c1083758053ccff7fdc3 | 7z file compressing   f8c08d00ff6e8c6adb1a93cd133b19302d0b651afd73ccb54e3b6ac6c60d99c6 Linux (ELF)   ransomware payload |
-| sha1 | 3ef89d49ca341b7c1c96e22a607a529baba4129c | BlackCat_Linux_Ransom.7z |
-| file compressing   f8c08d00ff6e8c6adb1a93cd133b19302d0b651afd73ccb54e3b6ac6c60d99c6 Linux (ELF)   ransomware payload" | high |  |
-| sha1 | 36dff07387cf3f2393339d30d0672fcbccc7a73c | Linux (ELF) ransomware payload in which leaked data   could be available from a negociation website  |
-| sha1 | 7d773012425d44e7c778f275b70e0f42ce5f8ad7 | windows ransomware payload signatures of Blackcat that   seem to be a false positive and related to kse-launcher i.e. KeyStore   Explorer |
-| sha1 | 6d4b8e97981c8cd290a487d6080d1b96f3b5496a | 71b0db75ae00efd006068d7fff5992cb.virus windows   ransomware payload  |
-| sha1 | 5ac485d60fe2c096b10cda2624588427928e3f0d | [victim name removed by intrinsec]_wo_dc Linux (ELF)   ransomware payload in which leaked data could be available from a negociation   website  |
-| sha1 | 42c1f2d3043b5c7f247e6f9dd83aeede3b6c1d13 | setup.exe Runner of ALPHV ransomware payloads |
-| sha1 | ffe9ac065beb32be352f89bb2b77697b9f01edb2 | setup.exe Runner of ALPHV ransomware payloads in a ZIP   file |
-| sha1 | fd0d6046d6e3096bd38df9aa539d4b5502db9f85 | [victim name removed by intrinsec]_wo_dc Linux (ELF)   ransomware payload in which leaked data could be available from a negociation   website  |
-| sha1 | 2a53525eeb7b76b3d1bfe40ac349446f2add8784 | 01_samples_for_upload\222.vir embedded in ZIP file   31894fc735ac0ac2bc935bcc0472d72e98c955f7a4c5a2b72880de7934ba02ba |
-| sha1 | 7bbb3b91b2b1f3c995ab2a8de2acfebe54cb0f39 | tar file embedding   9802a1e8fb425ac3a7c0a7fca5a17cfcb7f3f5f0962deb29e3982f0bece95e26 ELF (Linux)   ransomware payload and VM check reports |
-| sha1 | 58abfd1a56c208826925a1c903554c091285ad49 | b9acf6efedadae53cf015d0aa9f32653.virus windows   ransomware payload |
-| sha1 | ce5540c0d2c54489737f3fefdbf72c889ac533a9 | rdp01_alpha_x86_32_windows_encrypt_app.exe windows   ransomware payload |
-| sha1 | c1187fe0eaddee995773d6c66bcb558536e9b62c | [victim name removed by intrinsec]2.exe.virus windows   ransomware payload  |
-| sha1 | 783b2b053ef0345710cd2487e5184f29116e367c | [victim name removed by intrinsec].exe.virus windows   ransomware payload  |
-| sha1 | c5181892afde538c73109b4c83e2a2730eb9014d | [victim name removed by   intrinsec]_com_tr_alpha_x86_32_windows_encrypt_app.exe windows ransomware   payload |
-| md5 | 173c4085c23080d9fb19280cc507d28d | windows ransomware payload in which data were   encrypted |
-| md5 | 53469c10c1c514548e4a456c613043a7 | Zip archive |
-| md5 | 23f38a3922581b6b8c26a8627adbbc05 | Zip archive |
-| md5 | 70b8bc74f381c9d7d1016006c3950f85 | windows ransomware payload in which leaked data are   available from this negociation website |
-| md5 | c1dd3d5a3528bf56632200d247ca9774 | test_4mmc_x86_32_windows_encrypt_app.exe windows   ransomware payload in which leaked data could be available from a negociation   website  |
-| md5 | a854c960cde68d43fd42a24e79587b28 | locker.exe windows ransomware payload in which leaked   data could be available from a negociation website  |
-| md5 | 0b6ef1e650df35e2d04c56ebfcceabc7 | windows ransomware payload in which leaked data could   be available from a negociation website  |
-| md5 | 221c91c48390a941b381fb5cd6df60df | 4405_[victim name removed by   intrinsec]_alpha_x86_32_windows_encrypt_app.exe windows ransomware payload in   which leaked data could be available from a negociation website  |
-| md5 | c681038bc738ff0a816176c4cd21150c | [victim name removed by   intrinsec]_com_tr_alpha_x86_32_windows_encrypt_app.exe windows ransomware   payload in which leaked data could be available from a negociation   website  |
-| md5 | fe16fa500584cb241532dc7cb75c1f53 | windows ransomware payload that seem to be a test file |
-| md5 | 9c54d3b2a64d92bca577a12b70d8d29a | windows ransomware payload in which leaked data could   be available from a negociation website  |
-| md5 | 81d7c2d1dca5da7eef2896a76768d142 | windows ransomware payload in which leaked data could   be available from a negociation website (could be from the same attack than   previous hash) |
-| md5 | 817f4bf0b4d0fc327fdfc21efacddaee | veros3.exe windows ransomware payload |
-| md5 | d5d4dd13900a1fef828d4a0193ce05a2 | windows ransomware payload signatures of Blackcat that   seem to be a false positive and related to kse-launcher i.e. KeyStore   Explorer |
-| md5 | d7a7fd3a7e3501114fd0049457f5ce09 | d7a7fd3a7e3501114fd0049457f5ce09.virus |
-| md5 | 4373cf0d42926b15f95e35683d883a1c | 4373cf0d42926b15f95e35683d883a1c.virus windows   ransomware payload  |
-| md5 | ff56e700d15f3d944424c295eae926d9 | cefea76dfdbb48cfe1a3db2c8df34e898e29bec9b2c13e79ef40655c637833ae.exe   windows ransomware payload  |
-| md5 | ed075c4718fd98efcbc845db00677065 | ed075c4718fd98efcbc845db00677065.virus windows   ransomware payload  |
-| md5 | fb1e6156f0e3223694add66339864cd4 | fb1e6156f0e3223694add66339864cd4.virus windows   ransomware payload |
-| md5 | bb266486ee8ac70c0687989e02cefa14 | bb266486ee8ac70c0687989e02cefa14.virus windows   ransomware payload |
-| md5 | 730bd2385c3fc6d2bee48c0a9bcb373c | 730bd2385c3fc6d2bee48c0a9bcb373c.virus windows   ransomware payload  |
-| md5 | aea5d3cced6725f37e2c3797735e6467 | 01_samples_for_upload\220.vir windows ransomware   payload  |
-| md5 | f66f13c0cd51d1868ce01f9ffc738c70 | windows ransomware payload signatures of Blackcat that   seem to be a false positive and related to kse-launcher i.e. KeyStore   Explorer |
-| md5 | 8e5731185dc2338d5378348953a3d707 | [victim name removed by intrinsec] (2).zip embeeds two   windows ransomware payloads  |
-| md5 | 0400f73592db520bfb3134f96b7f7582 | zip file compressing   cefea76dfdbb48cfe1a3db2c8df34e898e29bec9b2c13e79ef40655c637833ae.exe windows   ransomware payload |
-| md5 | d5857586faf2ce0232331dc176afd7e8 | zip file compressing   7e363b5f1ba373782261713fa99e8bbc35ddda97e48799c4eb28f17989da8d8e.exe windows   ransomware payload |
-| md5 | 23fcd569efe85ac8efffd210475b9041 | zip file compressing   59868f4b346bd401e067380cac69080709c86e06fae219bfb5bc17605a71ab3f.exe windows   ransomware payload |
-| md5 | a342adc40ffc6bd47debbff1578891ff | zip file compressing   3d7cf20ca6476e14e0a026f9bdd8ff1f26995cdc5854c3adb41a6135ef11ba83.exe windows   ransomware payload |
-| md5 | 37a0fd54c2802c4e6f1f29c30763982d | zip file compressing [victim name removed by   intrinsec]-exe-3d7cf20ca6476e14e0a026f9bdd8ff1f26995cdc5854c3adb41a6135ef11ba83.bin.sample   windows ransomware payload |
-| md5 | c83fb8a842c0bf746446b29695e64476 | BlackCat.zip file compressing [victim name removed by   intrinsec]-exe-3d7cf20ca6476e14e0a026f9bdd8ff1f26995cdc5854c3adb41a6135ef11ba83.bin.sample   windows ransomware payload |
-| md5 | 79fea7f741760ea21ff655137af05bd0 | Linux (ELF) ransomware payload in which leaked data   could be available from a negociation website  |
-| md5 | 085b8046d0c3958d78751b6825052d66 | Linux (ELF) ransomware payload in which leaked data   could be available from a negociation website  |
-| md5 | 92ed8739cfb9132c8b57016e3c071a28 | test_4mmc_x86_64_linux_encrypt_app.elf Linux (ELF)   ransomware payload in which leaked data could be available from a negociation   website  |
-| md5 | 1151e20ea5d45063278ccc36a559d851 | 7z file compressing   f8c08d00ff6e8c6adb1a93cd133b19302d0b651afd73ccb54e3b6ac6c60d99c6 Linux (ELF)   ransomware payload |
-| md5 | 056699b8c632dbb780495fcf78860ab7 | BlackCat_Linux_Ransom.7z |
-| md5 | 843001980e5073c7f0ea8b56873246b8 | Linux (ELF) ransomware payload in which leaked data   could be available from a negociation website  |
-| md5 | 553769d52a54897134a95e95c06ea4ef | windows ransomware payload signatures of Blackcat that   seem to be a false positive and related to kse-launcher i.e. KeyStore   Explorer |
-| md5 | 71b0db75ae00efd006068d7fff5992cb | 71b0db75ae00efd006068d7fff5992cb.virus windows   ransomware payload  |
-| md5 | 769fdda466dcd97eb8a7a99c958d460e | [victim name removed by intrinsec]_wo_dc Linux (ELF)   ransomware payload in which leaked data could be available from a negociation   website  |
-| md5 | 29760ebc574f9fccdf77973f7bb8bfbd | setup.exe Runner of ALPHV ransomware payloads |
-| md5 | f468ffb19d4f53ab94ed8ae851d540ad | setup.exe Runner of ALPHV ransomware payloads in a ZIP   file |
-| md5 | 0f933d57cd4c5f5d8717eb126a99ece6 | [victim name removed by intrinsec]_wo_dc Linux (ELF)   ransomware payload in which leaked data could be available from a negociation   website  |
-| md5 | 8e1f22dd9e809ead5e19b340b0c80cae | 01_samples_for_upload\222.vir embedded in ZIP file   31894fc735ac0ac2bc935bcc0472d72e98c955f7a4c5a2b72880de7934ba02ba |
-| md5 | a7841ed8c3a6bb880ac6bd057eb4d55a | tar file embedding   9802a1e8fb425ac3a7c0a7fca5a17cfcb7f3f5f0962deb29e3982f0bece95e26 ELF (Linux)   ransomware payload and VM check reports |
-| md5 | b9acf6efedadae53cf015d0aa9f32653 | b9acf6efedadae53cf015d0aa9f32653.virus windows   ransomware payload |
-| md5 | 51826408514057db47c0bbbffb2c581d | rdp01_alpha_x86_32_windows_encrypt_app.exe windows   ransomware payload |
-| md5 | ccde3fe374a219ed3a85a0bf548542c3 | [victim name removed by intrinsec]2.exe.virus windows   ransomware payload  |
-| md5 | c6901bc6720e1e30c6c2e89aae874a90 | [victim name removed by intrinsec].exe.virus windows   ransomware payload  |
-| md5 | c681038bc738ff0a816176c4cd21150c | [victim name removed by   intrinsec]_com_tr_alpha_x86_32_windows_encrypt_app.exe windows ransomware   payload |
-| domain | support-global-it-ss[.].com | Resolving IP address 141.136.44.54 hosting both runner   and payloads |
-| domain | mail.support-global-it-ss[.].com | sub domain of support-global-it-ss[.].com |
-| domain | cloud.support-global-it-ss[.].com | sub domain of support-global-it-ss[.].com |
-| domain | rfosusl6qdm4zhoqbqnjxaloprld2qz35u77h4aap46rhwkouejsooqd[.]onion | Negociation site |
-| domain | sty5r4hhb5oihbq2mwevrofdiqbgesi66rvxr5sr573xgvtuvr4cs5yd[.]onion | Negociation site |
-| domain | alphvmmm27o3abo3r2mlmjrpdmzle3rykajqc5xsj7j7ejksbpsa36ad[.]onion | Public Dedicated Leak Site of ALPHV |
-| domain | mu75ltv3lxd24dbyu6gtvmnwybecigs5auki7fces437xvvflzva2nqd[.]onion | Negociation site |
-| domain | b4twqa2mvob3s6uvuyfra5xk3qgps2v5kkt7k2qnb7rpdu3j4fkntead[.]onion | Negociation site |
-| domain | xqoykemmcivwtpxh3a6pu3w7sstr2y7hapxdiv4caaxidurmwwbjx2id[.]onion | Negociation site |
-| domain | aoczppoxmfqqthtwlwi4fmzlrv6aor3isn6ffaiic55wrfumxslx3vyd[.]onion | Negociation site |
-| domain | zujgzbu5y64xbmvc42addp4lxkoosb4tslf5mehnh7pvqjpwxn5gokyd[.]onion | Private Dedicated Leak Site |
-| domain | y4722ss64vel5hmph75te7lx2x5xz463322ypjirm5ytxviijtdpybid[.]onion | Negociation site |
-| domain | 2cuqgeerjdba2rhdiviezodpu3lc4qz2sjf4qin6f7std2evleqlzjid[.]onion | Negociation site |
-| domain | id7seexjn4bojn5rvo4lwcjgufjz7gkisaidckaux3uvjc7l7xrsiqad[.]onion | Negociation site |
-| url | hxxp://rfosusl6qdm4zhoqbqnjxaloprld2qz35u77h4aap46rhwkouejsooqd[.]onion/ | Negociation site URL |
-| url | hxxp://sty5r4hhb5oihbq2mwevrofdiqbgesi66rvxr5sr573xgvtuvr4cs5yd[.]onion/ | Negociation site URL |
-| url | hxxp://alphvmmm27o3abo3r2mlmjrpdmzle3rykajqc5xsj7j7ejksbpsa36ad[.]onion/ | Public Dedicated Leak Site URL of ALPHV |
-| url | hxxp://mu75ltv3lxd24dbyu6gtvmnwybecigs5auki7fces437xvvflzva2nqd[.]onion/ | Negociation site URL |
-| url | hxxp://b4twqa2mvob3s6uvuyfra5xk3qgps2v5kkt7k2qnb7rpdu3j4fkntead[.]onion/ | Negociation site URL |
-| url | hxxp://xqoykemmcivwtpxh3a6pu3w7sstr2y7hapxdiv4caaxidurmwwbjx2id[.]onion/ | Negociation site URL |
-| url | hxxp://aoczppoxmfqqthtwlwi4fmzlrv6aor3isn6ffaiic55wrfumxslx3vyd[.]onion/ | Negociation site URL |
-| url | hxxp://zujgzbu5y64xbmvc42addp4lxkoosb4tslf5mehnh7pvqjpwxn5gokyd[.]onion/ | Private Dedicated Leak Site URL |
-| url | hxxp://y4722ss64vel5hmph75te7lx2x5xz463322ypjirm5ytxviijtdpybid[.]onion/ | Negociation site URL |
-| url | hxxp://2cuqgeerjdba2rhdiviezodpu3lc4qz2sjf4qin6f7std2evleqlzjid[.]onion/ | Negociation site URL |
-| url | hxxp://id7seexjn4bojn5rvo4lwcjgufjz7gkisaidckaux3uvjc7l7xrsiqad[.]onion/ | Negociation site URL |
-| url | hxxp://141.136.44.54/files/test_4mmc_x86_64_linux_encrypt_app.elf | URL from which an ELF file tight to ALPHV was   downloaded in which leaked data could be available from a negociation   website  |
-| url | hxxp://141.136.44.54/files/setup.exe | A runner most likely leveraged by affiliates upon   attacks to download and run alphv ransomware |
-| url | hxxp://141.136.44.54/upload | URL used for API interaction with the server |
-| url | hxxp://141.136.44.54/files/ | URL pointing the a 'files' folder in which payloads   are hosted |
-| url | hxxp://141.136.44.54/ | url address found in the runner setup.exe by reverse   engineering the binary |
-| ip | 141[.]136[.]44[.]54 | IP address found in the runner setup.exe by reverse   engineering the binary |
-| Command Used | [REDACTED].exe   --access-token [REDACTED] --no-net |  
-| Command Used | reg add   HKLM\SYSTEM\CurrentControlSet\Control\Lsa /v DisableRestrictedAdmin /t   REG_DWORD /d 0 |  
-| Command Used | cmd /c vssadmin.exe delete shadows /all   /quiet |  
-| Command Used | cmd /c wmic csproduct get UUID |  
-| Command Used | cmd /c fsutil behavior set   SymlinkEvaluation R2L:1 |  
-| Command Used | cmd /c fsutil behavior set   SymlinkEvaluation R2R:1 |  
-| Command Used | cmd /c reg add   HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters   /v MaxMpxCt /d 65535 /t REG_DWORD /f |  
-| Command Used | ./sample_alfa_x86_64_linux_encrypt_app.exe   --access-token XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX |  
-| Command Used | C:\Users\administrator\Documents\ScreenConnect\Temp\start.bat |  
-| Command Used | ./sample_alfa_x86_64_linux_encrypt_app.exe   --access-token XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   --drop-drag-and-drop-target |  
-| Command Used | copy   sample_alfa_x86_64_linux_encrypt_app.exe   C:\WINDOWS\sysvol\sysvol*yourdomain*\scripts\locker.exe |  
-| Command Used | /c \yourdomain\netlogon\locker.exe   --access-token XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX |  | 
-| Command Used | vim-cmd vmsvc/snapshot.removeall (to   clean ESXi snapshots) |  | 
-| Command Used | scp sample_alfa_x86_64_linux_encrypt_app   root@10.0.0.1:/tmp/ | |  
-| Command Used | cd /tmp/ && chmod +x   sample_alfa_x86_64_linux_encrypt_app |  | 
-| Command Used | tmp/sample_alfa_x86_64_linux_encrypt_app   --access-token XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX& |  | 
-| Command Used | cmd /c vssadmin.exe delete shadows /all /quiet |  | 
-| Command Used | cmd /c fsutil behavior set SymlinkEvaluation R2L:1 |  | 
-| Command Used | cmd /c fsutil behavior set SymlinkEvaluation R2R:1 |  | 
-| Command Used | CSIDL_WINDOWS\temp\psexec.exe -accepteula \\[REDACTED] -u [REDACTED] -p [REDACTED] -s -d -f -c [REDACTED].exe --access-token [REDACTED] --no-prop-servers \\[REDACTED] --propagated |  | 
-| Command Used | [REDACTED].exe --access-token [REDACTED] --no-net |  | 
-| Command Used | cmd /c reg add HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters /v MaxMpxCt /d 65535 /t REG_DWORD /f |  | 
-| Command Used | cmd /c wmic csproduct get UUID |  | 
-| File Extension | .sykffle |  | 
-| File Hash | 0c6f444c6940a3688ffc6f8b9d5774c032e3551ebbccb64e4280ae7fc1fac479 | |  
-| File Hash | 15b57c1b68cd6ce3c161042e0f3be9f32d78151fe95461eedc59a79fc222c7ed | |  
-| File Hash | 28d7e6fe31dc00f82cb032ba29aad6429837ba5efb83c2ce4d31d565896e1169 | |  
-| File Hash | 2cf54942e8cf0ef6296deaa7975618dadff0c32535295d3f0d5f577552229ffc | |  
-| File Hash | 38834b796ed025563774167716a477e9217d45e47def20facb027325f2a790d1 | |  
-| File Hash | 3a08e3bfec2db5dbece359ac9662e65361a8625a0122e68b56cd5ef3aedf8ce1 | |  
-| File Hash | 3d7cf20ca6476e14e0a026f9bdd8ff1f26995cdc5854c3adb41a6135ef11ba83 | |  
-| File Hash | 40f57275721bd74cc59c0c59c9f98c8e0d1742b7ae86a46e83e985cc4039c3a5 | |  
-| File Hash | 4e18f9293a6a72d5d42dad179b532407f45663098f959ea552ae43dbb9725cbf | |  
-| File Hash | 5121f08cf8614a65d7a86c2f462c0694c132e2877a7f54ab7fcefd7ee5235a42 | |  
-| File Hash | 59868f4b346bd401e067380cac69080709c86e06fae219bfb5bc17605a71ab3f | |  
-| File Hash | 5bdc0fb5cfbd42de726aacc40eddca034b5fa4afcc88ddfb40a3d9ae18672898 | |  
-| File Hash | 658e07739ad0137bceb910a351ce3fe4913f6fcc3f63e6ff2eb726e45f29e582 | |  
-| File Hash | 7154fdb1ef9044da59fcfdbdd1ed9abc1a594cacb41a0aeddb5cd9fdaeea5ea8 | |  
-| File Hash | 731adcf2d7fb61a8335e23dbee2436249e5d5753977ec465754c6b699e9bf161 | |  
-| File Hash | 7b2449bb8be1b37a9d580c2592a67a759a3116fe640041d0f36dc93ca3db4487 | |  
-| File Hash | 7e363b5f1ba373782261713fa99e8bbc35ddda97e48799c4eb28f17989da8d8e | |  
-| File Hash | b588823eb5c65f36d067d496881d9c704d3ba57100c273656a56a43215f35442 | |  
-| File Hash | bd337d4e83ab1c2cacb43e4569f977d188f1bb7c7a077026304bf186d49d4117 | |  
-| File Hash | c5ad3534e1c939661b71f56144d19ff36e9ea365fdb47e4f8e2d267c39376486 | |  
-| File Hash | c8b3b67ea4d7625f8b37ba59eed5c9406b3ef04b7a19b97e5dd5dab1bd59f283 | |  
-| File Hash | cefea76dfdbb48cfe1a3db2c8df34e898e29bec9b2c13e79ef40655c637833ae | |  
-| File Hash | e69a13add1245bc1b7b6337e64eee9b53395b9574f2b85d32f891680c7165ff5 | | 
-| File Hash | f0743669e8cf2a26132de1c4bd55978b005291075fcb531e751de8c2b6407faa | |  
-| File Hash | f5685e99c3ee2b11ed5dd6ca738d6a5c35a81943c6c4cf1f2e2b212e7f8ffded | |  
-| File Hash | f7a038f9b91c40e9d67f4168997d7d8c12c2d27cd9e36c413dd021796a24e083 | |  
-| File Hash | f815f5d6c85bcbc1ec071dd39532a20f5ce910989552d980d1d4346f57b75f89 | |  
-| File Hash | f837f1cd60e9941aa60f7be50a8f2aaaac380f560db8ee001408f35c1b7a97cb | |  
-| File Hash | f8c08d00ff6e8c6adb1a93cd133b19302d0b651afd73ccb54e3b6ac6c60d99c6 | |  
-| File Hash | cda37b13d1fdee1b4262b5a6146a35d8fc88fa572e55437a47a950037cc65d40 | |  
+| Type | Data |
+|---|---|
+| sha256 | 731adcf2d7fb61a8335e23dbee2436249e5d5753977ec465754c6b699e9bf161 |
+| sha256 | d3f6d77366e48b6c483656c6d7774d6632bcd18ef375736a7131588f15e1747f |
+| sha256 | 8453fbb620e4fe685304e366ff1371a54384a3ae8836bb5b41bf05fc387c5451 |
+| sha256 | 4e18f9293a6a72d5d42dad179b532407f45663098f959ea552ae43dbb9725cbf |
+| sha256 | 15b57c1b68cd6ce3c161042e0f3be9f32d78151fe95461eedc59a79fc222c7ed |
+| sha256 | bd337d4e83ab1c2cacb43e4569f977d188f1bb7c7a077026304bf186d49d4117 |
+| sha256 | 28d7e6fe31dc00f82cb032ba29aad6429837ba5efb83c2ce4d31d565896e1169 |
+| sha256 | c8b3b67ea4d7625f8b37ba59eed5c9406b3ef04b7a19b97e5dd5dab1bd59f283 |
+| sha256 | c5ad3534e1c939661b71f56144d19ff36e9ea365fdb47e4f8e2d267c39376486 |
+| sha256 | 59868f4b346bd401e067380cac69080709c86e06fae219bfb5bc17605a71ab3f |
+| sha256 | 38834b796ed025563774167716a477e9217d45e47def20facb027325f2a790d1 |
+| sha256 | 7b2449bb8be1b37a9d580c2592a67a759a3116fe640041d0f36dc93ca3db4487 |
+| sha256 | f837f1cd60e9941aa60f7be50a8f2aaaac380f560db8ee001408f35c1b7a97cb |
+| sha256 | cda37b13d1fdee1b4262b5a6146a35d8fc88fa572e55437a47a950037cc65d40 |
+| sha256 | b588823eb5c65f36d067d496881d9c704d3ba57100c273656a56a43215f35442 |
+| sha256 | 7154fdb1ef9044da59fcfdbdd1ed9abc1a594cacb41a0aeddb5cd9fdaeea5ea8 |
+| sha256 | cefea76dfdbb48cfe1a3db2c8df34e898e29bec9b2c13e79ef40655c637833ae |
+| sha256 | 2cf54942e8cf0ef6296deaa7975618dadff0c32535295d3f0d5f577552229ffc |
+| sha256 | 658e07739ad0137bceb910a351ce3fe4913f6fcc3f63e6ff2eb726e45f29e582 |
+| sha256 | 0c6f444c6940a3688ffc6f8b9d5774c032e3551ebbccb64e4280ae7fc1fac479 |
+| sha256 | 5bdc0fb5cfbd42de726aacc40eddca034b5fa4afcc88ddfb40a3d9ae18672898 |
+| sha256 | 3d7cf20ca6476e14e0a026f9bdd8ff1f26995cdc5854c3adb41a6135ef11ba83 |
+| sha256 | 77627a11eb3ee6f7195953a8a793fea69c97166f3afb668fe3d37ebe26643c7a |
+| sha256 | 8415c72e225a8285cba9228150c7c318a47f9f09489f435486597c42ce74a253 |
+| sha256 | 40f0550787e8029756620e2209187b7493b369a7363b9179fb96de2f3cb26803 |
+| sha256 | 31894fc735ac0ac2bc935bcc0472d72e98c955f7a4c5a2b72880de7934ba02ba |
+| sha256 | 1bbe4972d8e940fcc83408b87604aaa6728d89fe6e019891ba82fb900c7db009 |
+| sha256 | 65c25cf7f0b2a38d01b1666a9680278d8de12fe40f2e5a53fdd3ad5218847bfb |
+| sha256 | 43d3e630a7448efd83b8c191b255d9ace89b40c0103df47db5e01a37d8450607 |
+| sha256 | 5045b8478a51ddfeba5f3ea751aa0a1b9a6d8b5ae6c5d6c61b08b11be7302ca1 |
+| sha256 | f8c08d00ff6e8c6adb1a93cd133b19302d0b651afd73ccb54e3b6ac6c60d99c6 |
+| sha256 | f7a038f9b91c40e9d67f4168997d7d8c12c2d27cd9e36c413dd021796a24e083 |
+| sha256 | 3a08e3bfec2db5dbece359ac9662e65361a8625a0122e68b56cd5ef3aedf8ce1 |
+| sha256 | bb4dc2defcac70f068bdb4a68f465695ecc776906d93544ca11a049eac322638 |
+| sha256 | 07cb251c6c4262876083e5ad6a02b1c022464a10bab23c9582661dacc3d6730a |
+| file compressing   f8c08d00ff6e8c6adb1a93cd133b19302d0b651afd73ccb54e3b6ac6c60d99c6 Linux (ELF)   ransomware payload" | high |
+| sha256 | 5121f08cf8614a65d7a86c2f462c0694c132e2877a7f54ab7fcefd7ee5235a42 |
+| sha256 | 152d0f3fc21fd22affa6012a4b7005e01c5748302a89df7b267cf0f96f61f2f0 |
+| sha256 | 40f57275721bd74cc59c0c59c9f98c8e0d1742b7ae86a46e83e985cc4039c3a5 |
+| sha256 | 9802a1e8fb425ac3a7c0a7fca5a17cfcb7f3f5f0962deb29e3982f0bece95e26 |
+| sha256 | f0a694b6ed97dcf4932ea91b955bd93457d1979ea88a670895094f8771f7e199 |
+| sha256 | 198a7994c2aa71d74009f5d08bd7ad2742cac3b11d7b2154894c9c001ce2e5ca |
+| sha256 | e7060538ee4b48b0b975c8928c617f218703dab7aa7814ce97481596f2a78556 |
+| sha256 | 7e363b5f1ba373782261713fa99e8bbc35ddda97e48799c4eb28f17989da8d8e |
+| sha256 | 3bb9131f8a7991ccd7351903a8ee403ed422762ce1f44f062c24d8279c388879 |
+| sha256 | e69a13add1245bc1b7b6337e64eee9b53395b9574f2b85d32f891680c7165ff5 |
+| ;high |  |
+| sha256 | 1af1ca666e48afc933e2eda0ae1d6e88ebd23d27c54fd1d882161fd8c70b678e |
+| sha256 | c3e5d4e62ae4eca2bfca22f8f3c8cbec12757f78107e91e85404611548e06e40 |
+| sha256 | 13828b390d5f58b002e808c2c4f02fdd920e236cc8015480fa33b6c1a9300e31 |
+| sha256 | c5ad3534e1c939661b71f56144d19ff36e9ea365fdb47e4f8e2d267c39376486 |
+| sha1 | a186c08d3d10885ebb129b1a0d8ea0da056fc362 |
+| sha1 | ffdd7dd92f6cac1d29d57fa4c0af6e4fbe8dbcd0 |
+| sha1 | 130b337a99fbf110fa39214c0b01337f7bf77cb9 |
+| sha1 | 655c2567650d2c109fab443de4b737294994f1fd |
+| sha1 | 89060eff6db13e7455fee151205e972260e9522a |
+| sha1 | 94f025f3be089252692d58e54e3e926e09634e40 |
+| sha1 | 5c6ca5581a04955d8e4d1fa452621fbc922ecb7b |
+| sha1 | 5869820f261f76eafa1ba00af582a9225d005c89 |
+| sha1 | c5181892afde538c73109b4c83e2a2730eb9014d |
+| sha1 | e22436386688b5abe6780a462fd07cd12c3f3321 |
+| sha1 | da1e4a09a59565c5d62887e0e9a9f6f04a18b5f4 |
+| sha1 | 57a6dfd2b021e5a4d4fe34a61bf3242ecee841b3 |
+| sha1 | 8917af3878fa49fe4ec930230b881ff0ae8d19c9 |
+| sha1 | f95d865ef06f382bc9599a8093308afb9007ab89 |
+| sha1 | 3e794a584d75c2ceb07287fe450dcdc4d7ce949a |
+| sha1 | 0c7215c4325ded8139ea2f0428412f17e6c8f957 |
+| sha1 | e17dc8062742878b0b5ced2145311929f6f77abd |
+| sha1 | f466b4d686d1fa9fed064507639b9306b0d80bbf |
+| sha1 | a8fd52bd107f7b62483c11c15923fbd2256c8bac |
+| sha1 | 11203786b17bb3873d46acae32a898c8dac09850 |
+| sha1 | d42566e04d295a1e9e2823d202a1800cdc1ddd77 |
+| sha1 | 087497940a41d96e4e907b6dc92f75f4a38d861a |
+| sha1 | cbeab15657761631e124d4bc315df5dd744a2d54 |
+| sha1 | 9dac45163102b5355131c852f6bcaae787373153 |
+| sha1 | 91ba6d88b5c24992c5c52707afed78473f99b23b |
+| sha1 | c59e30486ecad58207ebccd48615faef5381f8d4 |
+| sha1 | 30319c50e1e54b857c7c2a9cec50707adb658a1e |
+| sha1 | 111440943ace8197a6a59420ed27f608e6e9d94a |
+| sha1 | bb5ed8ea820d829d30c810a77d795f24d7a265c5 |
+| sha1 | f493fe7e3c7bbf2e3c2ce26345b6eb6e835caa51 |
+| sha1 | 9146a448463935b47e29155da74c68d16e0d7031 |
+| sha1 | 6116a5b0c0b6c147a2c715aad2eb1cd082941715 |
+| sha1 | 362aa21546904629b28a56c9d5c4bfd3b53296f5 |
+| sha1 | 00fd13409a3da0da9248c1083758053ccff7fdc3 |
+| sha1 | 3ef89d49ca341b7c1c96e22a607a529baba4129c |
+| file compressing   f8c08d00ff6e8c6adb1a93cd133b19302d0b651afd73ccb54e3b6ac6c60d99c6 Linux (ELF)   ransomware payload" | high |
+| sha1 | 36dff07387cf3f2393339d30d0672fcbccc7a73c |
+| sha1 | 7d773012425d44e7c778f275b70e0f42ce5f8ad7 |
+| sha1 | 6d4b8e97981c8cd290a487d6080d1b96f3b5496a |
+| sha1 | 5ac485d60fe2c096b10cda2624588427928e3f0d |
+| sha1 | 42c1f2d3043b5c7f247e6f9dd83aeede3b6c1d13 |
+| sha1 | ffe9ac065beb32be352f89bb2b77697b9f01edb2 |
+| sha1 | fd0d6046d6e3096bd38df9aa539d4b5502db9f85 |
+| sha1 | 2a53525eeb7b76b3d1bfe40ac349446f2add8784 |
+| sha1 | 7bbb3b91b2b1f3c995ab2a8de2acfebe54cb0f39 |
+| sha1 | 58abfd1a56c208826925a1c903554c091285ad49 |
+| sha1 | ce5540c0d2c54489737f3fefdbf72c889ac533a9 |
+| sha1 | c1187fe0eaddee995773d6c66bcb558536e9b62c |
+| sha1 | 783b2b053ef0345710cd2487e5184f29116e367c |
+| sha1 | c5181892afde538c73109b4c83e2a2730eb9014d |
+| md5 | 173c4085c23080d9fb19280cc507d28d |
+| md5 | 53469c10c1c514548e4a456c613043a7 |
+| md5 | 23f38a3922581b6b8c26a8627adbbc05 |
+| md5 | 70b8bc74f381c9d7d1016006c3950f85 |
+| md5 | c1dd3d5a3528bf56632200d247ca9774 |
+| md5 | a854c960cde68d43fd42a24e79587b28 |
+| md5 | 0b6ef1e650df35e2d04c56ebfcceabc7 |
+| md5 | 221c91c48390a941b381fb5cd6df60df |
+| md5 | c681038bc738ff0a816176c4cd21150c |
+| md5 | fe16fa500584cb241532dc7cb75c1f53 |
+| md5 | 9c54d3b2a64d92bca577a12b70d8d29a |
+| md5 | 81d7c2d1dca5da7eef2896a76768d142 |
+| md5 | 817f4bf0b4d0fc327fdfc21efacddaee |
+| md5 | d5d4dd13900a1fef828d4a0193ce05a2 |
+| md5 | d7a7fd3a7e3501114fd0049457f5ce09 |
+| md5 | 4373cf0d42926b15f95e35683d883a1c |
+| md5 | ff56e700d15f3d944424c295eae926d9 |
+| md5 | ed075c4718fd98efcbc845db00677065 |
+| md5 | fb1e6156f0e3223694add66339864cd4 |
+| md5 | bb266486ee8ac70c0687989e02cefa14 |
+| md5 | 730bd2385c3fc6d2bee48c0a9bcb373c |
+| md5 | aea5d3cced6725f37e2c3797735e6467 |
+| md5 | f66f13c0cd51d1868ce01f9ffc738c70 |
+| md5 | 8e5731185dc2338d5378348953a3d707 |
+| md5 | 0400f73592db520bfb3134f96b7f7582 |
+| md5 | d5857586faf2ce0232331dc176afd7e8 |
+| md5 | 23fcd569efe85ac8efffd210475b9041 |
+| md5 | a342adc40ffc6bd47debbff1578891ff |
+| md5 | 37a0fd54c2802c4e6f1f29c30763982d |
+| md5 | c83fb8a842c0bf746446b29695e64476 |
+| md5 | 79fea7f741760ea21ff655137af05bd0 |
+| md5 | 085b8046d0c3958d78751b6825052d66 |
+| md5 | 92ed8739cfb9132c8b57016e3c071a28 |
+| md5 | 1151e20ea5d45063278ccc36a559d851 |
+| md5 | 056699b8c632dbb780495fcf78860ab7 |
+| file compressing   f8c08d00ff6e8c6adb1a93cd133b19302d0b651afd73ccb54e3b6ac6c60d99c6 Linux (ELF)   ransomware payload" | high |
+| md5 | 843001980e5073c7f0ea8b56873246b8 |
+| md5 | 553769d52a54897134a95e95c06ea4ef |
+| md5 | 71b0db75ae00efd006068d7fff5992cb |
+| md5 | 769fdda466dcd97eb8a7a99c958d460e |
+| md5 | 29760ebc574f9fccdf77973f7bb8bfbd |
+| md5 | f468ffb19d4f53ab94ed8ae851d540ad |
+| md5 | 0f933d57cd4c5f5d8717eb126a99ece6 |
+| md5 | 8e1f22dd9e809ead5e19b340b0c80cae |
+| md5 | a7841ed8c3a6bb880ac6bd057eb4d55a |
+| md5 | b9acf6efedadae53cf015d0aa9f32653 |
+| md5 | 51826408514057db47c0bbbffb2c581d |
+| md5 | ccde3fe374a219ed3a85a0bf548542c3 |
+| md5 | c6901bc6720e1e30c6c2e89aae874a90 |
+| md5 | c681038bc738ff0a816176c4cd21150c |
+| domain | support-global-it-ss[.].com |
+| domain | mail.support-global-it-ss[.].com |
+| domain | cloud.support-global-it-ss[.].com |
+| domain | rfosusl6qdm4zhoqbqnjxaloprld2qz35u77h4aap46rhwkouejsooqd[.]onion |
+| domain | sty5r4hhb5oihbq2mwevrofdiqbgesi66rvxr5sr573xgvtuvr4cs5yd[.]onion |
+| domain | alphvmmm27o3abo3r2mlmjrpdmzle3rykajqc5xsj7j7ejksbpsa36ad[.]onion |
+| domain | mu75ltv3lxd24dbyu6gtvmnwybecigs5auki7fces437xvvflzva2nqd[.]onion |
+| domain | b4twqa2mvob3s6uvuyfra5xk3qgps2v5kkt7k2qnb7rpdu3j4fkntead[.]onion |
+| domain | xqoykemmcivwtpxh3a6pu3w7sstr2y7hapxdiv4caaxidurmwwbjx2id[.]onion |
+| domain | aoczppoxmfqqthtwlwi4fmzlrv6aor3isn6ffaiic55wrfumxslx3vyd[.]onion |
+| domain | zujgzbu5y64xbmvc42addp4lxkoosb4tslf5mehnh7pvqjpwxn5gokyd[.]onion |
+| domain | y4722ss64vel5hmph75te7lx2x5xz463322ypjirm5ytxviijtdpybid[.]onion |
+| domain | 2cuqgeerjdba2rhdiviezodpu3lc4qz2sjf4qin6f7std2evleqlzjid[.]onion |
+| domain | id7seexjn4bojn5rvo4lwcjgufjz7gkisaidckaux3uvjc7l7xrsiqad[.]onion |
+| url | hxxp://rfosusl6qdm4zhoqbqnjxaloprld2qz35u77h4aap46rhwkouejsooqd[.]onion/ |
+| url | hxxp://sty5r4hhb5oihbq2mwevrofdiqbgesi66rvxr5sr573xgvtuvr4cs5yd[.]onion/ |
+| url | hxxp://alphvmmm27o3abo3r2mlmjrpdmzle3rykajqc5xsj7j7ejksbpsa36ad[.]onion/ |
+| url | hxxp://mu75ltv3lxd24dbyu6gtvmnwybecigs5auki7fces437xvvflzva2nqd[.]onion/ |
+| url | hxxp://b4twqa2mvob3s6uvuyfra5xk3qgps2v5kkt7k2qnb7rpdu3j4fkntead[.]onion/ |
+| url | hxxp://xqoykemmcivwtpxh3a6pu3w7sstr2y7hapxdiv4caaxidurmwwbjx2id[.]onion/ |
+| url | hxxp://aoczppoxmfqqthtwlwi4fmzlrv6aor3isn6ffaiic55wrfumxslx3vyd[.]onion/ |
+| url | hxxp://zujgzbu5y64xbmvc42addp4lxkoosb4tslf5mehnh7pvqjpwxn5gokyd[.]onion/ |
+| url | hxxp://y4722ss64vel5hmph75te7lx2x5xz463322ypjirm5ytxviijtdpybid[.]onion/ |
+| url | hxxp://2cuqgeerjdba2rhdiviezodpu3lc4qz2sjf4qin6f7std2evleqlzjid[.]onion/ |
+| url | hxxp://id7seexjn4bojn5rvo4lwcjgufjz7gkisaidckaux3uvjc7l7xrsiqad[.]onion/ |
+| url | hxxp://141.136.44.54/files/test_4mmc_x86_64_linux_encrypt_app.elf |
+| url | hxxp://141.136.44.54/files/setup.exe |
+| url | hxxp://141.136.44.54/upload |
+| url | hxxp://141.136.44.54/files/ |
+| url | hxxp://141.136.44.54/ |
+| ip | 141[.]136[.]44[.]54 |
+| File Name | screensaver.exe |
+| File Name | file.bin |
+| Command Used | [REDACTED].exe   --access-token [REDACTED] --no-net |
+| Command Used | reg add   HKLM\SYSTEM\CurrentControlSet\Control\Lsa /v DisableRestrictedAdmin /t   REG_DWORD /d 0 |
+| Command Used | cmd /c vssadmin.exe delete shadows /all   /quiet |
+| Command Used | cmd /c wmic csproduct get UUID |
+| Command Used | cmd /c fsutil behavior set   SymlinkEvaluation R2L:1 |
+| Command Used | cmd /c fsutil behavior set   SymlinkEvaluation R2R:1 |
+| Command Used | cmd /c reg add   HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters   /v MaxMpxCt /d 65535 /t REG_DWORD /f |
+| Command Used | ./sample_alfa_x86_64_linux_encrypt_app.exe   --access-token XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX |
+| Command Used | C:\Users\administrator\Documents\ScreenConnect\Temp\start.bat |
+| Command Used | ./sample_alfa_x86_64_linux_encrypt_app.exe   --access-token XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   --drop-drag-and-drop-target |
+| Command Used | copy   sample_alfa_x86_64_linux_encrypt_app.exe   C:\WINDOWS\sysvol\sysvol*yourdomain*\scripts\locker.exe |
+| Command Used | /c \yourdomain\netlogon\locker.exe   --access-token XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX |
+| Command Used | vim-cmd vmsvc/snapshot.removeall (to   clean ESXi snapshots) |
+| Command Used | scp sample_alfa_x86_64_linux_encrypt_app   root@10.0.0.1:/tmp/ |
+| Command Used | cd /tmp/ && chmod +x   sample_alfa_x86_64_linux_encrypt_app |
+| Command Used | tmp/sample_alfa_x86_64_linux_encrypt_app   --access-token XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX& |
+| Command Used | cmd /c vssadmin.exe delete shadows /all /quiet |
+| Command Used | cmd /c fsutil behavior set SymlinkEvaluation R2L:1 |
+| Command Used | cmd /c fsutil behavior set SymlinkEvaluation R2R:1 |
+| Command Used | CSIDL_WINDOWS\temp\psexec.exe -accepteula \\[REDACTED] -u [REDACTED] -p [REDACTED] -s -d -f -c [REDACTED].exe --access-token [REDACTED] --no-prop-servers \\[REDACTED] --propagated |
+| Command Used | [REDACTED].exe --access-token [REDACTED] --no-net |
+| Command Used | cmd /c reg add HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters /v MaxMpxCt /d 65535 /t REG_DWORD /f |
+| Command Used | cmd /c wmic csproduct get UUID |
+| File Extension | .sykffle |
+| File Hash | 0c6f444c6940a3688ffc6f8b9d5774c032e3551ebbccb64e4280ae7fc1fac479 |
+| File Hash | 15b57c1b68cd6ce3c161042e0f3be9f32d78151fe95461eedc59a79fc222c7ed |
+| File Hash | 28d7e6fe31dc00f82cb032ba29aad6429837ba5efb83c2ce4d31d565896e1169 |
+| File Hash | 2cf54942e8cf0ef6296deaa7975618dadff0c32535295d3f0d5f577552229ffc |
+| File Hash | 38834b796ed025563774167716a477e9217d45e47def20facb027325f2a790d1 |
+| File Hash | 3a08e3bfec2db5dbece359ac9662e65361a8625a0122e68b56cd5ef3aedf8ce1 |
+| File Hash | 3d7cf20ca6476e14e0a026f9bdd8ff1f26995cdc5854c3adb41a6135ef11ba83 |
+| File Hash | 40f57275721bd74cc59c0c59c9f98c8e0d1742b7ae86a46e83e985cc4039c3a5 |
+| File Hash | 4e18f9293a6a72d5d42dad179b532407f45663098f959ea552ae43dbb9725cbf |
+| File Hash | 5121f08cf8614a65d7a86c2f462c0694c132e2877a7f54ab7fcefd7ee5235a42 |
+| File Hash | 59868f4b346bd401e067380cac69080709c86e06fae219bfb5bc17605a71ab3f |
+| File Hash | 5bdc0fb5cfbd42de726aacc40eddca034b5fa4afcc88ddfb40a3d9ae18672898 |
+| File Hash | 658e07739ad0137bceb910a351ce3fe4913f6fcc3f63e6ff2eb726e45f29e582 |
+| File Hash | 7154fdb1ef9044da59fcfdbdd1ed9abc1a594cacb41a0aeddb5cd9fdaeea5ea8 |
+| File Hash | 731adcf2d7fb61a8335e23dbee2436249e5d5753977ec465754c6b699e9bf161 |
+| File Hash | 7b2449bb8be1b37a9d580c2592a67a759a3116fe640041d0f36dc93ca3db4487 |
+| File Hash | 7e363b5f1ba373782261713fa99e8bbc35ddda97e48799c4eb28f17989da8d8e |
+| File Hash | b588823eb5c65f36d067d496881d9c704d3ba57100c273656a56a43215f35442 |
+| File Hash | bd337d4e83ab1c2cacb43e4569f977d188f1bb7c7a077026304bf186d49d4117 |
+| File Hash | c5ad3534e1c939661b71f56144d19ff36e9ea365fdb47e4f8e2d267c39376486 |
+| File Hash | c8b3b67ea4d7625f8b37ba59eed5c9406b3ef04b7a19b97e5dd5dab1bd59f283 |
+| File Hash | cefea76dfdbb48cfe1a3db2c8df34e898e29bec9b2c13e79ef40655c637833ae |
+| File Hash | e69a13add1245bc1b7b6337e64eee9b53395b9574f2b85d32f891680c7165ff5 |
+| File Hash | f0743669e8cf2a26132de1c4bd55978b005291075fcb531e751de8c2b6407faa |
+| File Hash | f5685e99c3ee2b11ed5dd6ca738d6a5c35a81943c6c4cf1f2e2b212e7f8ffded |
+| File Hash | f7a038f9b91c40e9d67f4168997d7d8c12c2d27cd9e36c413dd021796a24e083 |
+| File Hash | f815f5d6c85bcbc1ec071dd39532a20f5ce910989552d980d1d4346f57b75f89 |
+| File Hash | f837f1cd60e9941aa60f7be50a8f2aaaac380f560db8ee001408f35c1b7a97cb |
+| File Hash | f8c08d00ff6e8c6adb1a93cd133b19302d0b651afd73ccb54e3b6ac6c60d99c6 |
+| File Hash | cda37b13d1fdee1b4262b5a6146a35d8fc88fa572e55437a47a950037cc65d40 |
