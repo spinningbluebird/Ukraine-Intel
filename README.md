@@ -5,7 +5,6 @@ Analysts and consultants in security will see a rise in attacks related to the c
 ## Current Active Threats
 
 | Name  | Type | Information |
-| ------------- | ------------- |
 | WhisperGate  | Malware | https://www.zdnet.com/article/cisa-fbi-warn-us-orgs-of-whispergate-and-hermeticwiper-malware/ |
 | HermeticWiper  | Malware | https://www.zdnet.com/article/cisa-fbi-warn-us-orgs-of-whispergate-and-hermeticwiper-malware/ |
 | Phishing | Multiple Phishing Campaigns | https://twitter.com/selenalarson/status/1498799190624796673 |
