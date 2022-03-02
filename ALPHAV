@@ -47,7 +47,6 @@ For encryption they've been seen using AES and ChaCha20.
 | sha256 | 3a08e3bfec2db5dbece359ac9662e65361a8625a0122e68b56cd5ef3aedf8ce1 |
 | sha256 | bb4dc2defcac70f068bdb4a68f465695ecc776906d93544ca11a049eac322638 |
 | sha256 | 07cb251c6c4262876083e5ad6a02b1c022464a10bab23c9582661dacc3d6730a |
-| file compressing   f8c08d00ff6e8c6adb1a93cd133b19302d0b651afd73ccb54e3b6ac6c60d99c6 Linux (ELF)   ransomware payload" | high |
 | sha256 | 5121f08cf8614a65d7a86c2f462c0694c132e2877a7f54ab7fcefd7ee5235a42 |
 | sha256 | 152d0f3fc21fd22affa6012a4b7005e01c5748302a89df7b267cf0f96f61f2f0 |
 | sha256 | 40f57275721bd74cc59c0c59c9f98c8e0d1742b7ae86a46e83e985cc4039c3a5 |
@@ -58,7 +57,6 @@ For encryption they've been seen using AES and ChaCha20.
 | sha256 | 7e363b5f1ba373782261713fa99e8bbc35ddda97e48799c4eb28f17989da8d8e |
 | sha256 | 3bb9131f8a7991ccd7351903a8ee403ed422762ce1f44f062c24d8279c388879 |
 | sha256 | e69a13add1245bc1b7b6337e64eee9b53395b9574f2b85d32f891680c7165ff5 |
-| ;high |  |
 | sha256 | 1af1ca666e48afc933e2eda0ae1d6e88ebd23d27c54fd1d882161fd8c70b678e |
 | sha256 | c3e5d4e62ae4eca2bfca22f8f3c8cbec12757f78107e91e85404611548e06e40 |
 | sha256 | 13828b390d5f58b002e808c2c4f02fdd920e236cc8015480fa33b6c1a9300e31 |
@@ -98,7 +96,6 @@ For encryption they've been seen using AES and ChaCha20.
 | sha1 | 362aa21546904629b28a56c9d5c4bfd3b53296f5 |
 | sha1 | 00fd13409a3da0da9248c1083758053ccff7fdc3 |
 | sha1 | 3ef89d49ca341b7c1c96e22a607a529baba4129c |
-| file compressing   f8c08d00ff6e8c6adb1a93cd133b19302d0b651afd73ccb54e3b6ac6c60d99c6 Linux (ELF)   ransomware payload" | high |
 | sha1 | 36dff07387cf3f2393339d30d0672fcbccc7a73c |
 | sha1 | 7d773012425d44e7c778f275b70e0f42ce5f8ad7 |
 | sha1 | 6d4b8e97981c8cd290a487d6080d1b96f3b5496a |
@@ -148,7 +145,6 @@ For encryption they've been seen using AES and ChaCha20.
 | md5 | 92ed8739cfb9132c8b57016e3c071a28 |
 | md5 | 1151e20ea5d45063278ccc36a559d851 |
 | md5 | 056699b8c632dbb780495fcf78860ab7 |
-| file compressing   f8c08d00ff6e8c6adb1a93cd133b19302d0b651afd73ccb54e3b6ac6c60d99c6 Linux (ELF)   ransomware payload" | high |
 | md5 | 843001980e5073c7f0ea8b56873246b8 |
 | md5 | 553769d52a54897134a95e95c06ea4ef |
 | md5 | 71b0db75ae00efd006068d7fff5992cb |
