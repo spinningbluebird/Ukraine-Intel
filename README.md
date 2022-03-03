@@ -31,6 +31,12 @@ Analysts and consultants in security will see a rise in attacks related to the c
 | DinoTrain | Malware | https://www.microsoft.com/security/blog/2022/02/04/actinium-targets-ukrainian-organizations/ |
 | DilongTrash | Malware | https://www.microsoft.com/security/blog/2022/02/04/actinium-targets-ukrainian-organizations/ |
 | ObfuBerry/Merry | Malware | https://www.microsoft.com/security/blog/2022/02/04/actinium-targets-ukrainian-organizations/ |
+| Zatoichi | Disinformation | |
+| Stormous | Ransomware ||
+| Sandworm | | |
+| Cyberghost | | |
+| The Red Bandits | | |
+| Free Civilian | | |
 
 ## OSINT Trackers
 
